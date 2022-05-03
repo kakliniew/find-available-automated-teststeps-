@@ -12,3 +12,5 @@ Feature: Is it Friday yet?
     Given today is not Friday
     When I ask whether it's Friday yet
     Then I should noticed "TGIF"
+    Then I search noticed "TGIF"
+    Then She searches noticed "TGIF"
